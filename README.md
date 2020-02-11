@@ -13,7 +13,7 @@ python3 sorteio.py
 
 ## Built With
 
-* [Random](https://docs.python.org/3/library/random.html) - The module used to generate random numbers 
+* [Random](https://docs.python.org/3/library/random.html) - Module used to generate random numbers 
 
 ## Authors
 
