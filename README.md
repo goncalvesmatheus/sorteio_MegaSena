@@ -5,7 +5,7 @@ You can print how many lists you want.
 
 ## Running the tests
 
-Just running the commando bellow.
+Just running the commando bellow
 
 ```
 python3 sorteio.py
