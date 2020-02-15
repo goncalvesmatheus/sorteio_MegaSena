@@ -5,10 +5,9 @@ You can print how many lists you want.
 
 ## Versions 
 
-All the versions herer is stables.
+All stables versions.
 
-* [V.1.0] (https://github.com/goncalvesmatheus/sorteio_MegaSena/releases/tag/v1.0) - First version release
-
+* [V.1.0](https://github.com/goncalvesmatheus/sorteio_MegaSena/releases/tag/v1.0) - First version release
 
 
 ## Running the tests
