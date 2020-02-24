@@ -1,23 +1,32 @@
 import random
 
-def sorteio(repeticao):
-    try:
-        repeticao = int(repeticao)
-        jogo = []
-        i = 0
-        while i < repeticao:
-            while len(jogo) < 6:
-                num = random.randrange(1,60)
-                if num in jogo:
-                    continue
-                else:
-                    jogo.append(num)
-            print(sorted(jogo))
-            i += 1
-            jogo = []
-    except:
-        print ('Informação inválida.')
 
-repeticao = input('Quantos jogos deseja fazer? ')
+class MyClass:
+    def __init__(self):
+        self.result = {}
 
-sorteio(repeticao)
+    # Function start the random numbers
+    def sorteio(self, repeat):
+        try:
+            # get the variable repeat and put in another string to convert for integer
+            repeat_str = repeat.get()
+            # converting the string repeat_str to integer and adding to variable repeat
+            repeat = int(repeat_str)
+            game = []
+            i = 0
+            while i < repeat:
+                while len(game) < 6:
+                    num = random.randrange(1, 60)
+                    if num in game:
+                        continue
+                    else:
+                        game.append(num)
+                self.result[i] = sorted(game)
+                i += 1
+                game = []
+            return self.result
+        except:
+            print('Informação inválida.')
+
+    def advancedMode(self):
+        print('Advanced Mode.')

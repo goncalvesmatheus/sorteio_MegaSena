@@ -1,1 +1,3 @@
 venv_sorteio/
+.vscode/
+__pycache__/
