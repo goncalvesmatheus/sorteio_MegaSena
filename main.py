@@ -6,7 +6,6 @@ from tkinter import messagebox
 from sorteio import *
 import sorteio
 import webbrowser
-import urllib.parse
 
 s = MyClass()
 
@@ -28,6 +27,8 @@ def projectURL():
     webbrowser.open('https://github.com/goncalvesmatheus/sorteio_MegaSena')
 
 # Function when press the button OK to send how many lists do you want.
+
+
 def btnok():
     s.sorteio(repeat)
     txtArea.delete(1.0, END)
