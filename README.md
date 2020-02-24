@@ -12,7 +12,7 @@ All stables versions.
 * [V.2.0](https://github.com/goncalvesmatheus/sorteio_MegaSena/releases/tag/v.2.0) - Second version release
 
 
-## Running the tests
+## Running
 
 Just running the command bellow.
 
